@@ -1,0 +1,21 @@
+﻿node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+*.log
+# Local source media duplicates and temporary import/QA files
+/NHẠC NỀN ĐỌC SÁCH/
+/theater-*.png
+/drive-folder.html
+/catalog-import.json
+/catalog-rows.json
+/audio-import.json
+# Historical one-off code rewrite scripts
+/scripts/compact-pages.mjs
+/scripts/final-room-polish.mjs
+/scripts/fix-room-state.mjs
+/scripts/redesign.mjs
+/scripts/room-api-fixes.mjs
+/scripts/room-last-fixes.mjs
